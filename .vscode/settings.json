@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.options": {
+    "overrideConfigFile": "./.eslintrc"
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "json",
+    "jsonc",
+    "yaml"
+  ],
+  "vue.complete.casing.props": "autoKebab",
+  "vue.complete.casing.tags": "autoPascal",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "vue.codeActions.enabled": false
+}

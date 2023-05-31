@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "@hequ9",
+    "@unocss"
+  ]
+}
