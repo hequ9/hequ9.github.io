@@ -2,5 +2,9 @@
   "extends": [
     "@hequ9",
     "@unocss"
+  ],
+  "ignorePatterns": [
+    "!*.d.ts",
+    "./.nuxt/**/*.d.ts"
   ]
 }

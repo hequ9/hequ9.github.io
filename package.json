@@ -1,6 +1,6 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "@hequ9/homepage",
+  "author": "Aaron He",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -8,17 +8,21 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "dependencies": {
+    "@unocss/reset": "^0.52.7",
+    "typed.js": "^2.0.16"
+  },
   "devDependencies": {
     "@hequ9/eslint-config": "^0.1.0",
-    "@types/node": "^18",
-    "@unocss/eslint-config": "^0.52.5",
-    "@unocss/nuxt": "^0.52.5",
-    "@unocss/preset-rem-to-px": "^0.52.5",
+    "@iconify/json": "^2.2.72",
+    "@types/node": "^20.2.5",
+    "@unocss/eslint-config": "^0.52.7",
+    "@unocss/nuxt": "^0.52.7",
+    "@unocss/preset-rem-to-px": "^0.52.7",
+    "@vueuse/core": "^10.1.2",
+    "@vueuse/nuxt": "^10.1.2",
     "eslint": "^8.41.0",
     "nuxt": "^3.5.2",
     "sass": "^1.62.1"
-  },
-  "dependencies": {
-    "@unocss/reset": "^0.52.5"
   }
 }

@@ -4,6 +4,7 @@ import {
   presetAttributify,
   presetIcons,
   presetUno,
+  presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
@@ -19,11 +20,23 @@ export default defineConfig({
       }
     },
   ],
-  shortcuts: {
-    'flex-center': 'flex items-center justify-center',
-  },
+  shortcuts: [
+    {
+      'flex-center': 'flex items-center justify-center',
+    },
+    [/^bg-url-\[(.*)\]$/, ([,c]) => `bg-[url('${ c }')]`],
+  ],
   presets: [
     presetUno(),
+    presetWebFonts({
+      provider: 'fontshare',
+      fonts: {
+        satoshi: 'Satoshi',
+        neco: 'Neco',
+        bevellier: 'Bevellier',
+        comico: 'Comico',
+      },
+    }),
     presetIcons({
       prefix: '',
     }),

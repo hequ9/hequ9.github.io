@@ -6,3 +6,9 @@ import '@unocss/reset/sanitize/sanitize.css'
 <template>
   <NuxtPage />
 </template>
+
+<style lang="scss">
+body{
+  @apply bg-gradient-to-r from-#111111 to-#001E36 min-h-100vh;
+}
+</style>

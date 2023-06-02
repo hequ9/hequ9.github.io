@@ -1,12 +1,23 @@
 <script lang="ts" setup>
-// defineProps<{ msg: string }>()
+
 </script>
 
 <template>
-  <div id="index">
-    this is 'pages\index.vue'
+  <div>
+    <div
+      id="index"
+      position="fixed top-50% left-50%"
+      size="w-1100 h-500"
+      un-translate="x-[-50%] y-[-50%]"
+    >
+      <!-- card -->
+      <HomePersonalCard />
+      <!-- terminal -->
+      <HomeTerminal />
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+
 </style>

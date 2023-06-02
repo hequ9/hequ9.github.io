@@ -14,7 +14,8 @@
     "vue",
     "json",
     "jsonc",
-    "yaml"
+    "yaml",
+    "yml"
   ],
   "vue.complete.casing.props": "autoKebab",
   "vue.complete.casing.tags": "autoPascal",
