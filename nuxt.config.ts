@@ -13,7 +13,6 @@ export default defineNuxtConfig({
     // '@unocss/preset-rem-to-px',
   ],
   app: {
-    baseURL: '/homepage',
     head: {
       title: 'Aaron\'s homepage',
       meta: [
