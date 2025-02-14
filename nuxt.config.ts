@@ -4,14 +4,17 @@ export default defineNuxtConfig({
     path: '~/components',
     pathPrefix: false,
   }],
+
   imports: {
     dirs: ['./apis'],
   },
+
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
     // '@unocss/preset-rem-to-px',
   ],
+
   app: {
     head: {
       title: 'Aaron\'s homepage',
@@ -25,9 +28,11 @@ export default defineNuxtConfig({
       mode: 'out-in', // default
     },
   },
+
   typescript: {
     shim: false,
   },
+
   vite: {
     envDir: './env',
     vue: {
@@ -37,4 +42,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  compatibilityDate: '2025-02-15',
 })

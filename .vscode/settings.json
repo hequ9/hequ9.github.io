@@ -1,10 +1,10 @@
 {
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint":"explicit"
   },
   "eslint.options": {
-    "overrideConfigFile": "./.eslintrc"
+    "overrideConfigFile": "./eslint.config.js"
   },
   "eslint.validate": [
     "javascript",
