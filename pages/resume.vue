@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div id="resume">
+  <div id="resume" text-white>
     this is "resume" component.
   </div>
 </template>
