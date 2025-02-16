@@ -15,7 +15,7 @@ onMounted(() => {
     overflow="hidden"
     rounded="6"
     position="absolute left-0 top-[-50px] z99"
-    size="w-240 h-full"
+    size="w-240px h-full"
     shadow="lg"
     un-before="content-empty bg-(url-[assets/images/card-bg.png] cover) block w-full h-full absolute top-0 left-0 absolute -z-1 blur-8"
   >
@@ -24,15 +24,15 @@ onMounted(() => {
       size="w-full h-full"
       flex="~ col items-center justify-around"
       bg="[rgba(0,0,0,.6)]"
-      px="50"
+      px="50px"
     >
       <Avatar />
       <div
         inline-block
         w-full
-        text="white center 14"
+        text="white center 14px"
         font="satoshi"
-        h="60"
+        h="60px"
       >
         <div
           id="typing-string"

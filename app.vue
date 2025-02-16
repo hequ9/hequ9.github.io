@@ -8,7 +8,11 @@ import '@unocss/reset/sanitize/sanitize.css'
 </template>
 
 <style lang="scss">
-body{
+html {
+  font-family: 'Roboto', 'Noto Sans SC';
+  color:#333;
+}
+body {
   @apply bg-gradient-to-r from-#111111 to-#001E36 min-h-100vh;
 }
 </style>

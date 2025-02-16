@@ -5,14 +5,14 @@
     overflow="auto"
     text="white"
     font="satoshi"
-    px="10"
+    px="10px"
   >
     <h3 mb-0>
       hello stranger~👺
     </h3>
     <p
       leading="[3]"
-      pb-10
+      pb-10px
       border-b="1 solid #222324"
     >
       im 何曲(Hé Qǔ) from China born in 1997, a front-end developer and specialize in Nodejs, Typescript, occasional back-end development.

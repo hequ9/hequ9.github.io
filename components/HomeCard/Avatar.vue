@@ -10,7 +10,7 @@
       rounded-full
       p="2"
       border="1 solid #888"
-      size="w-100 h-100"
+      size="w-100px h-100px"
     />
   </div>
 </template>

@@ -7,14 +7,14 @@
     flex="~ items-center justify-center"
     relative
     w-full
-    pb-10
+    pb-10px
     border-b="1 solid #222324"
   >
     <div
       position="absolute left-0"
       flex
-      space-x-5
-      un-children="rounded-full w-14 h-14 border-(1 solid)"
+      space-x-5px
+      un-children="rounded-full w-14px h-14px border-(1 solid)"
     >
       <div
         bg="#F95C5B"
@@ -36,8 +36,8 @@
     >
       <i
         teenyicons:markdown-solid
-        size="w-14 h-14"
-        mr="5"
+        size="w-14px h-14px"
+        mr="5px"
       />
       ./README.md
     </span>

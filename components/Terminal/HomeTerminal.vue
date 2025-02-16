@@ -9,9 +9,9 @@
     bg="#141414"
     border="1 solid #222324"
     shadow="lg"
-    size="w-1000 h-full"
+    size="w-1000px h-full"
     float="right"
-    p="10 l-150"
+    p="10px l-150px"
     flex="~ col"
   >
     <TerminalTitle />

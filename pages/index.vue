@@ -7,7 +7,7 @@
     <div
       id="index"
       position="fixed top-50% left-50%"
-      size="w-1100 h-500"
+      size="w-1100px h-500px"
       un-translate="x-[-50%] y-[-50%]"
     >
       <!-- card -->

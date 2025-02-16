@@ -1,4 +1,3 @@
-import presetRemToPx from '@unocss/preset-rem-to-px'
 import {
   defineConfig,
   presetAttributify,
@@ -11,12 +10,12 @@ import {
 
 export default defineConfig({
   variants: [
-    matcher => {
+    (matcher) => {
       if (!matcher.startsWith('selected:') && !matcher.startsWith('selected-'))
         return matcher
       return {
         matcher: matcher.slice(9),
-        selector: s => `${ s }.active`,
+        selector: s => `${s}.active`,
       }
     },
   ],
@@ -24,26 +23,25 @@ export default defineConfig({
     {
       'flex-center': 'flex items-center justify-center',
     },
-    [/^bg-url-\[(.*)\]$/, ([,c]) => `bg-[url('${ c }')]`],
+    [/^bg-url-\[(.*)\]$/, ([,c]) => `bg-[url('${c}')]`],
   ],
   presets: [
     presetUno(),
     presetWebFonts({
       provider: 'fontshare',
       fonts: {
-        satoshi: 'Satoshi',
-        neco: 'Neco',
-        bevellier: 'Bevellier',
-        comico: 'Comico',
+        provider: 'google',
+        en: 'Roboto',
+        sc: 'Noto Sans SC',
       },
     }),
     presetIcons({
       prefix: '',
     }),
     presetAttributify(),
-    presetRemToPx({
-      baseFontSize: 4,
-    }),
+    // presetRemToPx({
+    //   baseFontSize: 4,
+    // }),
   ],
   transformers: [
     transformerDirectives(),
